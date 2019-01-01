@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="jia" unicode="&#58914;" d="M544 640 480 640 480 416 256 416 256 352 480 352 480 128 544 128 544 352 768 352 768 416 544 416ZM512 896C229.205333 896 0 666.773333 0 384c0-282.794667 229.205333-512 512-512s512 229.205333 512 512C1024 666.773333 794.794667 896 512 896zM512-48C273.408-48 80 145.408 80 384 80 622.592 273.408 816 512 816S944 622.592 944 384C944 145.408 750.592-48 512-48z"  horiz-adv-x="1024" />
+
+    
+    <glyph glyph-name="jian" unicode="&#58915;" d="M256 416l512 0 0-64-512 0 0 64ZM512 896C229.205333 896 0 666.773333 0 384c0-282.794667 229.205333-512 512-512s512 229.205333 512 512C1024 666.773333 794.794667 896 512 896zM512-48C273.408-48 80 145.408 80 384 80 622.592 273.408 816 512 816S944 622.592 944 384C944 145.408 750.592-48 512-48z"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>

@@ -1,0 +1,80 @@
+1、adminList(管理员集合)
+    _id
+    adminName:管理员账号
+    adminPassWord:管理员密码
+    lastTime:最后一次登陆时间
+2、adminLog(管理员的日志)
+    _id
+    adminId
+    logType:1、添加了店铺了，2、它添加了商品，3，它给用户充值了,4，登陆
+    detail:描述
+    addTime:
+
+
+
+3、shopTypeList店铺类别
+    _id
+    shopTypeName:类别名称
+    shopTypePic:图片
+    orderNum:排序 数字越大越靠前
+    createTime:添加时间
+    upTime:最后一次的更新时间
+4、shopList:店铺列表
+    _id:店铺ID
+    shopName:店铺名称
+    shopPic:店铺图片
+    shopTypeId:店铺类别
+    createTime
+5、goodsTypeList商品类别列表-----具体到某一个店铺的商品类别
+    _id
+    goodsTypeName:商品类别名称
+    shopId:店铺ID
+
+
+
+
+6、goodsList:商品列表
+    _id
+    goodsName:商品名称
+    goodsPrice:商品价格
+    goodsPic:商品图片
+    isHot:是否热销
+    goodsTypeId:商品类别ID
+    shopId:店铺ID
+7、advList:广告列表
+   _id
+   advPic:广告图片
+   advUrl:广告地址
+   advType:1、2、3、4、
+   advName:
+   advStartTime:
+   advOverTime:
+   orderNum:排序
+8、carList购物车
+    _id
+    goodsId
+    userId
+    buyNum
+    carType:1、加入，2、支付完成，3、订单完成
+    createTime
+    overTime
+9、收支记录
+    1、_ID
+    2、用户ID
+    3、goldNum
+    4、type:1,支出  2、收入
+    5、detail:备注
+10、用户信息表
+    _id
+    phoneId
+    goldNum:金币
+    lastTime:最后登陆时间
+ 11、msgList :短信列表
+    _id
+    phoneId
+    code
+    addTime
+
+
+
+
